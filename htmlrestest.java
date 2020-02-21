@@ -50,10 +50,10 @@ class giveresponse extends Thread{
 			OutputStreamWriter osw= new OutputStreamWriter(createsock.boss.getOutputStream());
 			BufferedWriter bw = new BufferedWriter(osw);
 		    if(fetchdata.c==1) {
-		    	bw.write("YOUR JAVASCRIPT CODE");
+		    	bw.write("YOUR JAVASCRIPT CODE"); //JAVASCRIPT CODE
 		    }
 		    else {
-			bw.write("YOUR HTML CODE");
+			bw.write("YOUR HTML CODE");//HTML CODE USE boss.js NAME FOR JAVASCRIPT FILE
 		
 		    }
 			bw.flush();
